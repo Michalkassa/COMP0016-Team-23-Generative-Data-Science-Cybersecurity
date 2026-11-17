@@ -4,44 +4,44 @@
 
 | Field | Value |
 |-------|-------|
-| Version number and date of this document | Add content here |
-| Team No. | Add content here |
-| Working Project Title | Add content here |
-| Project GitHub Repo URL | Add content here |
-| Academic Supervisor Name | Add content here |
-| TA Name | Add content here |
+| Version number and date of this document | Version 0.1 17th of Novemeber 2026|
+| Team No. | 23 |
+| Working Project Title | Generative Data Science for Cybersecurity |
+| Project GitHub Repo URL | https://github.com/Michalkassa/COMP0016-Team-23-Generative-Data-Science-Cybersecurity |
+| Academic Supervisor Name | Graham Roberts |
+| TA Name | Wonduk Seo |
 
 ## Team
 
 | Name | Email | Role |
 |------|-------|------|
-| Add content here | Add content here | Add content here |
-| | | |
-| | | |
-| | | |
-
+| Victor Mauger | victor.mauger.25@ucl.ac.uk | |
+| Zixi Wang| zczqz34@ucl.ac.uk | |
+| Michal Kassa| michal.kassa.25@ucl.ac.uk| |
+| Akshat Rai| akshat.rai.25@ucl.ac.uk| |
+| Yulin Ding| yulin.ding.25@ucl.ac.uk| |
 ## Partner Organisation
 
-| Field | Value |
+| Name | Industry |
 |-------|-------|
-| Partner Organisation Name | Add content here |
-| Address of Partner Organisation | Add content here |
+| Avenade | Cybersecurity Consulting |
+
 
 ### Overview of Partner Organisation
 
-Add content here
+Avanade is a global professional services company providing IT consulting and services focused on the Microsoft platform with artificial intelligence, business analytics, cloud, application services, digital transformation, modern workplace, security services, technology and managed services offerings
 
 ### Partner Contacts
 
 | Contact Name | Job Title | Email | Phone Number |
 |--------------|-----------|-------|--------------|
-| Add content here | Add content here | Add content here | Add content here |
+| Eli Kling | Enterpise AI Capability Lead | eli.kling@avanade.com |  +44 (0) 777 540 67 56 |
 
 ### Communication and Meetings
 
 > How often the team meets the partner, through which channel (e.g., Teams, email, Slack), and who the main contact is on each side.
 
-Add content here
+Meeting Once per week using Teams by booking "book-with-me" time slots with the partner. Time slots are decided in the group using whatsapp and during lab sessions on tuesday. The team is main contact on most meetings, using the book-with-me system and Emails to the client. 
 
 ## Project Description
 
@@ -167,4 +167,4 @@ Add content here
 
 | Version | Date | Author | Summary of Changes |
 |---------|------|--------|--------------------|
-| 1.0 | Add content here | Add content here | Initial version |
+| 0.1 | Add content here | Add content here | Initial version |
