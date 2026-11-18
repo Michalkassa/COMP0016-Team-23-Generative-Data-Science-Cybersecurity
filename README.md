@@ -9,9 +9,11 @@ Benchmark a tabular foundation model (TabPFN) against standard detectors on secu
 **The project**
 - [Specification](SPECIFICATION.md): partner, scope, requirements, constraints, data, ethics, IP
   - [Requirements](SPECIFICATION.md#detailed-requirements) · [Stretch](SPECIFICATION.md#stretch-requirements) · [Out of scope](SPECIFICATION.md#out-of-scope) · [Acceptance criteria](SPECIFICATION.md#acceptance-criteria)
-- [Anomaly detection](anomaly-detection/README.md): does TabPFN beat standard detectors?
-  - [Dataset card](anomaly-detection/data/DATACARD-wendover.md)
-- [Meta-statistician](metastatician/README.md): does an AI assistant improve the modeller's analysis?
+- [D1 Models benchmark](D1-Models-Benchmark/README.md): does TabPFN beat standard detectors?
+  - [Dataset card](D1-Models-Benchmark/data/DATACARD-wendover.md)
+- [D2 Meta-statistician](D2-Meta-Statistician/README.md): does an AI assistant improve the modeller's analysis?
+- [D3 Report](D3-Report-Findings/README.md): literature review, results and recommendations
+- [D4 Executive pitch](D4-Executive-pitch/README.md): proceed / revise / stop recommendation for Avanade
 - [Client brief and research wiki](https://github.com/elikling/ucl-cybersecurity-ml)
 
 **Tracking** ([LOG.md](LOG.md))
@@ -39,7 +41,7 @@ Every two weeks: runnable build demoed to the client. Monthly: progress video to
 | ✅ Nov | Client approves → requirements sealed (approval email logged) | [Decisions](LOG.md#decisions) | |
 | ✅**9 Nov 16:00** | Video presenting the agreed requirements due | [Video template](TEMPLATES.md#monthly-video) · [Deliverables](LOG.md#deliverables) | |
 | ✅Nov | Submit requirements & design | [Specification](SPECIFICATION.md) | **5%** |
-| Nov–Dec | Data + baselines + TabPFN + agent v1 → **Prototype 1** | [D1/D2] | |
+| Nov–Dec | Data + baselines + TabPFN + agent v1 → **Prototype 1** | [D1](D1-Models-Benchmark/README.md) · [D2](D2-Meta-Statistician/README.md) | |
 | Jan, term 2 week 1 | Prototype 1 demoed to client | [Deliverables](LOG.md#deliverables) | |
 | 22 Jan | Elevator pitch | [Deliverables](LOG.md#deliverables) | **5%** |
 | Jan–Feb | Full benchmark, agent evaluation, Azure demo → **Prototype 2**; IP and GDPR update | [IP](SPECIFICATION.md#ip-and-licensing) · [GDPR](SPECIFICATION.md#ethical-approval-and-gdpr-compliance) | |

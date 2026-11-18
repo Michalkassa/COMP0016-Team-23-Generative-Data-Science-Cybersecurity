@@ -321,7 +321,7 @@ To confirm with Avanade: whether further Avanade specialists (cybersecurity, Azu
 
 > Any data required for the project. Is it freely available, and not subject to any restrictions such as copyright? Will the data be available on time, and does it have any special storage requirements (e.g., due to size or restricted accessibility)?
 
-**Dataset:** anonymised web-server logs from a small, volunteer-run UK leisure / ecommerce website, 6 Sep to 7 Oct 2026 (31 days). Full details are in the [dataset card](anomaly-detection/data/DATACARD-wendover.md).
+**Dataset:** anonymised web-server logs from a small, volunteer-run UK leisure / ecommerce website, 6 Sep to 7 Oct 2026 (31 days). Full details are in the [dataset card](D1-Models-Benchmark/data/DATACARD-wendover.md).
 
 | File | Contents | Rows |
 |------|----------|------|
