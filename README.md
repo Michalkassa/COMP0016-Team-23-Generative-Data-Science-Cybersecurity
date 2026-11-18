@@ -34,12 +34,12 @@ Every two weeks: runnable build demoed to the client. Monthly: progress video to
 | When | Do | Where | Graded |
 |---|---|---|---|
 | ✅ 27 Oct | Client introduction, initial ideas and requirements | [Meetings](LOG.md#meetings-and-weekly-progress) | |
-| **→ Now** | Team drafts the requirements | [Requirements](SPECIFICATION.md#detailed-requirements) | |
-| Next | Email requirements to the client for approval | [Specification](SPECIFICATION.md) | |
-| Before the video | Client approves → requirements sealed (approval email logged) | [Decisions](LOG.md#decisions) | |
-| **9 Nov 16:00** | Video presenting the agreed requirements due | [Video template](TEMPLATES.md#monthly-video) · [Deliverables](LOG.md#deliverables) | |
-| Nov | Submit requirements & design | [Specification](SPECIFICATION.md) | **5%** |
-| Nov–Dec | Data + baselines + TabPFN + agent v1 → **Prototype 1** | [Anomaly detection](anomaly-detection/README.md) · [Meta-statistician](metastatician/README.md) | |
+| ✅ Oct - Nov| Team drafts the requirements | [Requirements](SPECIFICATION.md#detailed-requirements) | |
+| ✅ Nov | Email requirements to the client for approval | [Specification](SPECIFICATION.md) | |
+| ✅ Nov | Client approves → requirements sealed (approval email logged) | [Decisions](LOG.md#decisions) | |
+| ✅**9 Nov 16:00** | Video presenting the agreed requirements due | [Video template](TEMPLATES.md#monthly-video) · [Deliverables](LOG.md#deliverables) | |
+| ✅Nov | Submit requirements & design | [Specification](SPECIFICATION.md) | **5%** |
+| Nov–Dec | Data + baselines + TabPFN + agent v1 → **Prototype 1** | [D1/D2] | |
 | Jan, term 2 week 1 | Prototype 1 demoed to client | [Deliverables](LOG.md#deliverables) | |
 | 22 Jan | Elevator pitch | [Deliverables](LOG.md#deliverables) | **5%** |
 | Jan–Feb | Full benchmark, agent evaluation, Azure demo → **Prototype 2**; IP and GDPR update | [IP](SPECIFICATION.md#ip-and-licensing) · [GDPR](SPECIFICATION.md#ethical-approval-and-gdpr-compliance) | |
