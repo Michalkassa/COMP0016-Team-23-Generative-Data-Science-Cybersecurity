@@ -1,0 +1,66 @@
+name: Enhancement
+description: Suggest a new feature or an improvement
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the feature or improvement you'd like to see.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What problem does this solve, or what is missing?
+      placeholder: Users cannot see the average grade for each module...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How should it work? Mention classes, endpoints or UI changes if you know them.
+      placeholder: Add a method to Module that computes the average of its grades and expose it via the REST API...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How will we know this is done?
+      placeholder: |
+        - [ ] Average is computed correctly for modules with grades
+        - [ ] NoGradeAvailableException is thrown when a module has no grades
+        - [ ] Endpoint returns the average as JSON
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Backend
+        - Frontend
+        - Build / CI
+        - Documentation
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you thought about?
+
+  - type: checkboxes
+    id: tdd
+    attributes:
+      label: Development checklist
+      options:
+        - label: I will write tests before the implementation (TDD)
+          required: true
+        - label: I will keep commits under 50 lines

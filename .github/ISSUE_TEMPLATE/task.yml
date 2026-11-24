@@ -1,0 +1,62 @@
+name: Task
+description: A general task such as research, documentation, meetings or admin
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for work that isn't a bug or a feature, e.g. research, writing, planning or setup.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Task type
+      options:
+        - Research
+        - Documentation / report writing
+        - Planning / meetings
+        - Setup / admin
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done and why?
+      placeholder: Research existing approaches for meta-statistical analysis of ML model performance...
+    validations:
+      required: true
+
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: Expected outcome
+      description: What will exist when this is finished? (e.g. a summary doc, a decision, a README section)
+      placeholder: A short write-up in D2-Meta-Statistician/ comparing at least three approaches, with a recommendation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Break the task into steps.
+      placeholder: |
+        - [ ] Find relevant papers / tools
+        - [ ] Summarise findings
+        - [ ] Share with the team for feedback
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      placeholder: 2026-12-01
+
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources / links
+      description: Papers, docs, related issues or anything useful to start from.
